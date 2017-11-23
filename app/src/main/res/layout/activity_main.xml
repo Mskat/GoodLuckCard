@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mskat.good_luck_card.MainActivity">
+
+    <ImageView
+        android:id="@+id/heart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/heart"/>
+
+    <TextView
+        android:id="@+id/good"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:text="Good luck in your new job!"
+        android:textSize="60sp"
+        android:textColor="#ffd9b3"
+        android:textStyle="bold"
+        android:fontFamily="cursive" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:text="Kate"
+        android:layout_below="@+id/good"
+        android:layout_alignRight="@+id/good"
+        android:textSize="60sp"
+        android:textColor="#ffd9b3"
+        android:textStyle="bold"
+        android:fontFamily="cursive" />
+
+</RelativeLayout>
